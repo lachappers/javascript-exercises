@@ -1,7 +1,7 @@
 
-const repeatString = function(string, times) {
-    
-    for (let i = 0; i < times ; i++){
+const repeatString = function(string, num) {
+    string = '';
+    for (let i = 0; i < num ; i++){
         string += `hey`;
     }
     return string;
