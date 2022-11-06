@@ -13,21 +13,31 @@ const add = (a, b) => a + b;
 const subtract = (a,b) => a-b;
 
 const sum = (array) => {
-  return array.reduce((c,d) => c + d, 0);
+  return array.reduce((a,b) => a + b, 0);
 };
 
+const multiply = (array) => {
+  return array.reduce((a,b) => a*b);
+  };
 
-const multiply = function() {
+// in solution : 
+    // const multiply = function(array) {
+    // return array.length
+    // ? array.reduce((accumulator, nextItem) => accumulator * nextItem)
+    // : 0;
+    // };
 
-};
+const power = (a,b) => Math.pow(a,b);
 
-const power = function() {
-	
-};
 
-const factorial = function() {
-	
-};
+// const factorial = function(n) {
+// 	if(n ===0 ){
+//     return 1;
+//   }
+//   return n*factorial(n-1);
+// };
+
+const factorial = (n) => n ===0 ? 1 : n*factorial(n-1);
 
 // Do not edit below this line
 module.exports = {
