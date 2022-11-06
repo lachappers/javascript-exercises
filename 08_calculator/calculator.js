@@ -1,14 +1,21 @@
-const add = calculator.reduce((a, b) =>{
-  return a + b;
-  },0);
+// const input = [0,0];
 
-const subtract = function() {
-	
+// const add = (a, b) => {
+//   input.reduce((a, b) => {
+//     return a + b;
+//   }, 0);
+// };
+// add(input);
+
+
+const add = (a, b) => a + b;
+
+const subtract = (a,b) => a-b;
+
+const sum = (array) => {
+  return array.reduce((c,d) => c + d, 0);
 };
 
-const sum = function() {
-	
-};
 
 const multiply = function() {
 
