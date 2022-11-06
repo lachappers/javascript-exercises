@@ -1,6 +1,6 @@
-const add = function() {
-	
-};
+const add = calculator.reduce((a, b) =>{
+  return a + b;
+  },0);
 
 const subtract = function() {
 	
